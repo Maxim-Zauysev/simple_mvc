@@ -6,7 +6,11 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="simple_mvc" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="simple_mvc" target="1.8" />
+    </bytecodeTargetLevel>
   </component>
 </project>
