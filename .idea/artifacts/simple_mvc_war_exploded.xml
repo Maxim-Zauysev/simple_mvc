@@ -31,6 +31,12 @@
           <element id="library" level="project" name="Maven: org.slf4j:slf4j-api:2.0.3" />
           <element id="library" level="project" name="Maven: org.slf4j:slf4j-reload4j:2.0.3" />
           <element id="library" level="project" name="Maven: ch.qos.reload4j:reload4j:1.2.22" />
+          <element id="library" level="project" name="Maven: javax.servlet:javax.servlet-api:4.0.1" />
+          <element id="library" level="project" name="Maven: javax.validation:validation-api:2.0.1.Final" />
+          <element id="library" level="project" name="Maven: org.hibernate.validator:hibernate-validator:6.2.5.Final" />
+          <element id="library" level="project" name="Maven: jakarta.validation:jakarta.validation-api:2.0.2" />
+          <element id="library" level="project" name="Maven: org.jboss.logging:jboss-logging:3.4.1.Final" />
+          <element id="library" level="project" name="Maven: com.fasterxml:classmate:1.5.1" />
         </element>
       </element>
       <element id="directory" name="META-INF">

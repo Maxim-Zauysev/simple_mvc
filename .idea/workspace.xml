@@ -10,72 +10,41 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9348ef95-cd90-43bd-ae8a-beab04ebb839" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/simple_mvc_war.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/simple_mvc_war_exploded.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_reload4j_reload4j_1_2_22.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_3_8_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__log4j_log4j_1_2_17.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_attoparser_attoparser_2_0_5_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_2_0_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_reload4j_2_0_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_5_2_15_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_5_2_15_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_5_2_15_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_5_2_15_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_5_2_15_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jcl_5_2_15_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_web_5_2_15_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_webmvc_5_2_15_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_thymeleaf_thymeleaf_3_0_15_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_thymeleaf_thymeleaf_spring5_3_0_15_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_unbescape_unbescape_1_1_6_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/simple_mvc.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/web/app/service/BookRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/web/app/service/BookService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/web/app/service/IdProvider.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/web/app/service/LoginService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/web/app/service/ProjectRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/web/controllers/BookShelfController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/web/controllers/LoginController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/web/dto/Book.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/web/dto/LoginForm.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/images/book_icon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/book_shelf.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/login_page.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_classmate_1_5_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_validation_jakarta_validation_api_2_0_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_javax_servlet_api_4_0_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_validation_validation_api_2_0_1_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_validator_hibernate_validator_6_2_5_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_logging_jboss_logging_3_4_1_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/webContexts.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/web/WebAppInitializer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/web/config/WebContextConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/web/controllers/ErrorController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/web/dto/BookIdToRemove.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/web/exeptions/BookShelfLoginExeption.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/errors/404.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/simple_mvc_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/simple_mvc_war_exploded.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/web/controllers/HomeController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/app-config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/app-config.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/log4j.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/log4j.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/web-config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/web-config.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/simple_mvc.iml" beforeDir="false" afterPath="$PROJECT_DIR$/simple_mvc.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/web/controllers/BookShelfController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/web/controllers/BookShelfController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/web/controllers/LoginController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/web/controllers/LoginController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/web/dto/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/web/dto/Book.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/web-config.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/book_shelf.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/book_shelf.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/login_page.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/login_page.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/app-config.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/log4j.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/example/web/controllers/HomeController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/example/web/app/service/BookService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/web/app/service/BookService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/example/web/controllers/BookShelfController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/web/controllers/BookShelfController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/example/web/controllers/LoginController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/web/controllers/LoginController.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/web-config.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/simple_mvc/META-INF/MANIFEST.MF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/simple_mvc/WEB-INF/classes/app-config.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/simple_mvc/WEB-INF/classes/log4j.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/simple_mvc/WEB-INF/classes/org/example/web/controllers/HomeController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/simple_mvc/WEB-INF/classes/web-config.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/simple_mvc/WEB-INF/lib/log4j-1.2.17.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/simple_mvc/WEB-INF/lib/micrometer-commons-1.10.3.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/simple_mvc/WEB-INF/lib/micrometer-observation-1.10.3.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/simple_mvc/WEB-INF/lib/spring-aop-6.0.4.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/simple_mvc/WEB-INF/lib/spring-beans-6.0.4.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/simple_mvc/WEB-INF/lib/spring-context-6.0.4.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/simple_mvc/WEB-INF/lib/spring-core-6.0.4.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/simple_mvc/WEB-INF/lib/spring-expression-6.0.4.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/simple_mvc/WEB-INF/lib/spring-jcl-6.0.4.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/simple_mvc/WEB-INF/lib/spring-web-6.0.4.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/simple_mvc/WEB-INF/lib/spring-webmvc-6.0.4.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/simple_mvc/WEB-INF/views/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/simple_mvc/WEB-INF/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring_skillbox_test_1/WEB-INF/classes/org/example/web/app/service/BookService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/spring_skillbox_test_1/WEB-INF/classes/org/example/web/app/service/BookService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring_skillbox_test_1/WEB-INF/classes/org/example/web/controllers/BookShelfController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/spring_skillbox_test_1/WEB-INF/classes/org/example/web/controllers/BookShelfController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring_skillbox_test_1/WEB-INF/classes/org/example/web/controllers/LoginController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/spring_skillbox_test_1/WEB-INF/classes/org/example/web/controllers/LoginController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring_skillbox_test_1/WEB-INF/classes/web-config.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring_skillbox_test_1/WEB-INF/views/book_shelf.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/spring_skillbox_test_1/WEB-INF/views/book_shelf.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring_skillbox_test_1/WEB-INF/views/login_page.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/spring_skillbox_test_1/WEB-INF/views/login_page.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring_skillbox_test_1/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/spring_skillbox_test_1/WEB-INF/web.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -86,6 +55,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="spring-beans.schema" />
+        <option value="HTML File" />
         <option value="Class" />
       </list>
     </option>
@@ -118,33 +88,41 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "E:/simple_mvc/src/main/resources",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.38850576",
-    "settings.editor.selected.configurable": "reference.projectsettings.compiler.javacompiler",
-    "spring.configuration.checksum": "7a05a9dd7c56061fdfdc98fab925bb0e"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;E:/simple_mvc/src/main/resources/images&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.38850576&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.ide.settings.new.ui&quot;,
+    &quot;spring.configuration.checksum&quot;: &quot;7a05a9dd7c56061fdfdc98fab925bb0e&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="org.example.web.dto" />
+      <recent name="org.example.web.exeptions" />
+      <recent name="org.example.web.config" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\simple_mvc\src\main\resources" />
-      <recent name="E:\simple_mvc\src\main" />
-      <recent name="E:\simple_mvc\src\main\java" />
-      <recent name="E:\simple_mvc" />
+      <recent name="E:\simple_mvc\src\main\resources\images" />
+      <recent name="E:\simple_mvc\src\main\webapp\WEB-INF\views" />
       <recent name="E:\simple_mvc\src\main\webapp\WEB-INF" />
+      <recent name="E:\simple_mvc\src\main\webapp\WEB-INF\views\errors" />
+      <recent name="E:\simple_mvc\src\main\resources" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\simple_mvc\src\main\webapp\WEB-INF\views\errors" />
       <recent name="E:\simple_mvc\simple_mvc\src\main\webapp\WEB-INF\views" />
     </key>
   </component>
@@ -161,12 +139,12 @@
       </method>
     </configuration>
     <configuration name="Tomcat 9.0.71" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.71" ALTERNATIVE_JRE_ENABLED="true" ALTERNATIVE_JRE_PATH="18" nameIsGenerated="true">
-      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8088/simple_mvc_war_exploded/login" />
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8088/login" />
       <option name="UPDATING_POLICY" value="restart-server" />
       <deployment>
         <artifact name="simple_mvc:war exploded">
           <settings>
-            <option name="CONTEXT_PATH" value="/simple_mvc_war_exploded" />
+            <option name="CONTEXT_PATH" value="" />
           </settings>
         </artifact>
       </deployment>
@@ -263,7 +241,10 @@
       <workItem from="1675151130144" duration="28000" />
       <workItem from="1675492746367" duration="6602000" />
       <workItem from="1675523522053" duration="8000" />
-      <workItem from="1675523676248" duration="3674000" />
+      <workItem from="1675523676248" duration="11035000" />
+      <workItem from="1675567937707" duration="211000" />
+      <workItem from="1675568340170" duration="137000" />
+      <workItem from="1675568508308" duration="2192000" />
     </task>
     <servers />
   </component>
