@@ -1,4 +1,4 @@
-package org.example.web.app.service;
+package org.example.app.services;
 
 
 import org.apache.log4j.Logger;
@@ -26,7 +26,7 @@ public class BookService {
         bookRepo.store(book);
     }
 
-    public boolean removeBookById(String bookIdToRemove) {
+    public boolean removeBookById(Integer bookIdToRemove) {
         return bookRepo.removeItemById(bookIdToRemove);
     }
 

@@ -1,7 +1,4 @@
-package org.example.web.app.service;
-import org.example.web.dto.Book;
-
-import java.util.List;
+package org.example.app.services;
 
 import java.util.List;
 
@@ -10,7 +7,7 @@ public interface ProjectRepository<T> {
 
     void store(T book);
 
-    boolean removeItemById(String bookIdToRemove);
+    boolean removeItemById(Integer bookIdToRemove);
 
     void removeItemByRegex(String queryRegex);
 }

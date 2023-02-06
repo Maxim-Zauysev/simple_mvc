@@ -13,14 +13,16 @@ import org.thymeleaf.spring5.templateresolver.SpringResourceTemplateResolver;
 import org.thymeleaf.spring5.view.ThymeleafViewResolver;
 
 @Configuration
-@ComponentScan(basePackages ="org.example" )//<context:component-scan base-package="org.example"/>
-@EnableWebMvc //    <mvc:annotation-driven/>
+@ComponentScan(basePackages = "org.example.web") //<context:component-scan base-package="org.example.web"/>
+@EnableWebMvc //<mvc:annotation-driven/>
 public class WebContextConfig implements WebMvcConfigurer {
+
     @Override
-    public void addResourceHandlers(ResourceHandlerRegistry registry) {
+    public void addResourceHandlers(ResourceHandlerRegistry registry){
         registry.addResourceHandler("/**").addResourceLocations("classpath:/images");
-        //<mvc:resources mapping="/**" location="classpath:images"/>
+        //  <mvc:resources mapping="/**" location="classpath:images">
     }
+
     @Bean
     public SpringResourceTemplateResolver templateResolver(){
         SpringResourceTemplateResolver templateResolver = new SpringResourceTemplateResolver();
@@ -34,10 +36,10 @@ public class WebContextConfig implements WebMvcConfigurer {
     @Bean
     public SpringTemplateEngine templateEngine(){
         SpringTemplateEngine templateEngine = new SpringTemplateEngine();
-        templateEngine.setTemplateResolver(templateResolver());;
-
+        templateEngine.setTemplateResolver(templateResolver());
         return templateEngine;
     }
+
     @Bean
     public ThymeleafViewResolver viewResolver(){
         ThymeleafViewResolver viewResolver = new ThymeleafViewResolver();
@@ -45,5 +47,7 @@ public class WebContextConfig implements WebMvcConfigurer {
         viewResolver.setOrder(1);
 
         return viewResolver;
+
     }
 }
+
