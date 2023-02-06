@@ -10,118 +10,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9348ef95-cd90-43bd-ae8a-beab04ebb839" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_classic_1_2_5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_core_1_2_5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_h2database_h2_2_1_214.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_annotation_jakarta_annotation_api_1_3_5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_11.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_api_2_14_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_to_slf4j_2_14_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_el_9_0_52.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_jul_to_slf4j_1_7_32.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_25.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_2_5_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_autoconfigure_2_5_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_2_5_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_logging_2_5_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_validation_2_5_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_config_5_0_17_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_core_5_0_17_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_web_5_0_17_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jcl_5_2_8_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_tx_5_2_7_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_web_5_2_8_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_yaml_snakeyaml_1_28.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/app/config/AppContextConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/app/config/AppSecurityConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/app/config/DbConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/app/config/SecurityInit.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/schema.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_fileupload_commons_fileupload_1_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_io_commons_io_2_6.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/artifacts/simple_mvc_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/simple_mvc_war_exploded.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_reload4j_reload4j_1_2_22.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_classmate_1_5_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_classmate_1_3_4.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_annotation_javax_annotation_api_1_3_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_validation_validation_api_2_0_1_Final.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_3_8_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_validator_hibernate_validator_6_2_5_Final.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_validator_hibernate_validator_6_1_5_Final.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_logging_jboss_logging_3_4_1_Final.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_logging_jboss_logging_3_3_2_Final.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_2_0_3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_reload4j_2_0_3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_5_2_15_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_5_2_8_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_5_2_15_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_webmvc_5_2_8_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_5_2_15_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_5_2_15_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_5_2_8_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_5_2_15_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_5_2_8_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jcl_5_2_15_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_5_2_8_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_web_5_2_15_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jdbc_5_2_7_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_webmvc_5_2_15_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_5_2_8_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_thymeleaf_thymeleaf_3_0_15_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_thymeleaf_thymeleaf_3_0_11_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_thymeleaf_thymeleaf_spring5_3_0_15_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_thymeleaf_thymeleaf_spring5_3_0_11_RELEASE.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/simple_mvc.iml" beforeDir="false" afterPath="$PROJECT_DIR$/simple_mvc.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/web/WebAppInitializer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/WebAppInitializer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/web/app/service/BookRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/app/services/BookRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/web/app/service/BookService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/app/services/BookService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/web/app/service/IdProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/app/services/IdProvider.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/web/app/service/LoginService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/app/services/LoginService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/web/app/service/ProjectRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/app/services/ProjectRepository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/web/config/WebContextConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/web/config/WebContextConfig.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/web/controllers/BookShelfController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/web/controllers/BookShelfController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/web/controllers/ErrorController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/web/controllers/ErrorController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/web/controllers/LoginController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/web/controllers/LoginController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/web/dto/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/web/dto/Book.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/web/dto/BookIdToRemove.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/web/dto/BookIdToRemove.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/web/exeptions/BookShelfLoginExeption.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/app/exeptions/BookShelfLoginExeption.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/app-config.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/app-config.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/example/web/WebAppInitializer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/example/web/app/service/BookRepository.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/example/web/app/service/BookService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/example/web/app/service/IdProvider.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/example/web/app/service/LoginService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/example/web/app/service/ProjectRepository.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/example/web/config/WebContextConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/web/config/WebContextConfig.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/example/web/controllers/BookShelfController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/web/controllers/BookShelfController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/example/web/controllers/ErrorController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/web/controllers/ErrorController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/example/web/controllers/LoginController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/web/controllers/LoginController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/example/web/dto/Book.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/web/dto/Book.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/example/web/dto/BookIdToRemove.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/web/dto/BookIdToRemove.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/example/web/exeptions/BookShelfLoginExeption.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/spring_skillbox_test_1/WEB-INF/classes/app-config.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/spring_skillbox_test_1/WEB-INF/classes/org/example/web/WebAppInitializer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/spring_skillbox_test_1/WEB-INF/classes/org/example/web/app/service/BookRepository.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/spring_skillbox_test_1/WEB-INF/classes/org/example/web/app/service/BookService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/spring_skillbox_test_1/WEB-INF/classes/org/example/web/app/service/IdProvider.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/spring_skillbox_test_1/WEB-INF/classes/org/example/web/app/service/LoginService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/spring_skillbox_test_1/WEB-INF/classes/org/example/web/app/service/ProjectRepository.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/spring_skillbox_test_1/WEB-INF/classes/org/example/web/config/WebContextConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/spring_skillbox_test_1/WEB-INF/classes/org/example/web/config/WebContextConfig.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/spring_skillbox_test_1/WEB-INF/classes/org/example/web/controllers/BookShelfController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/spring_skillbox_test_1/WEB-INF/classes/org/example/web/controllers/BookShelfController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/spring_skillbox_test_1/WEB-INF/classes/org/example/web/controllers/ErrorController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/spring_skillbox_test_1/WEB-INF/classes/org/example/web/controllers/ErrorController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/spring_skillbox_test_1/WEB-INF/classes/org/example/web/controllers/LoginController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/spring_skillbox_test_1/WEB-INF/classes/org/example/web/controllers/LoginController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/spring_skillbox_test_1/WEB-INF/classes/org/example/web/dto/Book.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/spring_skillbox_test_1/WEB-INF/classes/org/example/web/dto/Book.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/spring_skillbox_test_1/WEB-INF/classes/org/example/web/dto/BookIdToRemove.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/spring_skillbox_test_1/WEB-INF/classes/org/example/web/dto/BookIdToRemove.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/spring_skillbox_test_1/WEB-INF/classes/org/example/web/exeptions/BookShelfLoginExeption.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/spring_skillbox_test_1/WEB-INF/lib/classmate-1.5.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/spring_skillbox_test_1/WEB-INF/lib/hibernate-validator-6.2.5.Final.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/spring_skillbox_test_1/WEB-INF/lib/javax.annotation-api-1.3.2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/spring_skillbox_test_1/WEB-INF/lib/jboss-logging-3.4.1.Final.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/spring_skillbox_test_1/WEB-INF/lib/reload4j-1.2.22.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/spring_skillbox_test_1/WEB-INF/lib/slf4j-api-2.0.3.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/spring_skillbox_test_1/WEB-INF/lib/slf4j-reload4j-2.0.3.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/spring_skillbox_test_1/WEB-INF/lib/spring-aop-5.2.15.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/spring_skillbox_test_1/WEB-INF/lib/spring-beans-5.2.15.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/spring_skillbox_test_1/WEB-INF/lib/spring-context-5.2.15.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/spring_skillbox_test_1/WEB-INF/lib/spring-core-5.2.15.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/spring_skillbox_test_1/WEB-INF/lib/spring-expression-5.2.15.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/spring_skillbox_test_1/WEB-INF/lib/spring-jcl-5.2.15.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/spring_skillbox_test_1/WEB-INF/lib/spring-web-5.2.15.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/spring_skillbox_test_1/WEB-INF/lib/spring-webmvc-5.2.15.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/spring_skillbox_test_1/WEB-INF/lib/thymeleaf-3.0.15.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/spring_skillbox_test_1/WEB-INF/lib/thymeleaf-spring5-3.0.15.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/spring_skillbox_test_1/WEB-INF/lib/validation-api-2.0.1.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/book_shelf.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/book_shelf.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -324,7 +221,7 @@
       <workItem from="1675568340170" duration="137000" />
       <workItem from="1675568508308" duration="11595000" />
       <workItem from="1675618679401" duration="134000" />
-      <workItem from="1675619373367" duration="2240000" />
+      <workItem from="1675619373367" duration="5107000" />
     </task>
     <servers />
   </component>
