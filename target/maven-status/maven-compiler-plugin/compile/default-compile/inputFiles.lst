@@ -5,6 +5,7 @@ E:\simple_mvc\src\main\java\org\example\web\controllers\BookShelfController.java
 E:\simple_mvc\src\main\java\org\example\app\config\AppSecurityConfig.java
 E:\simple_mvc\src\main\java\org\example\web\config\WebContextConfig.java
 E:\simple_mvc\src\main\java\org\example\web\controllers\ErrorController.java
+E:\simple_mvc\src\main\java\org\example\web\dto\BookRegexToRemove.java
 E:\simple_mvc\src\main\java\org\example\app\services\ProjectRepository.java
 E:\simple_mvc\src\main\java\org\example\app\services\BookService.java
 E:\simple_mvc\src\main\java\org\example\app\services\LoginService.java

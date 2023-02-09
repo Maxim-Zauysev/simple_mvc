@@ -52,8 +52,7 @@ public class BookRepository<T> implements ProjectRepository<Book>, ApplicationCo
         parameterSource.addValue("size",book.getSize());
         jdbcTemplate.update("INSERT INTO books(author,title,size) VALUES(:author, :title, :size)",parameterSource);
         logger.info("store new book: " + book);
-     //   book.setId(context.getBean(IdProvider.class).provideId(book));
-       // repo.add(book);
+
     }
 
     @Override
@@ -66,27 +65,19 @@ public class BookRepository<T> implements ProjectRepository<Book>, ApplicationCo
     }
 
     @Override
-    public void removeItemByRegex(String queryRegex) {
+    public boolean removeItemByRegex(String bookRegexToRemove) {
         Pattern p = Pattern.compile("(author|title|size)\\s+(.+)*");
-        Matcher m = p.matcher(queryRegex.trim());
+        Matcher m = p.matcher(bookRegexToRemove.trim());
         if (m.matches()) {
             String field = m.group(1);
             String value = m.group(2);
-
-            for (Book book : retreiveAll()) {
-                //String getParam =field.equals("author") ? book.getAuthor()
-                //        : field.equals("title") ? book.getTitle() :
-                        //book.getSize();
-                //Pattern pattern = Pattern.compile(value);
-                //Matcher matcher = pattern.matcher(getParam);
-
-                //if (matcher.find()) {
-                  //  logger.info("remove book completed: " + book);
-                   // repo.remove(book);
-               // }
-            }
-            
+            MapSqlParameterSource parameterSource = new MapSqlParameterSource();
+            parameterSource.addValue(field,value);
+            jdbcTemplate.update("DELETE FROM books WHERE "+field+" = :"+field+"",parameterSource);
+            logger.info("remove books completed");
+            return true;
         }
+        return false;
     }
 
     @Override

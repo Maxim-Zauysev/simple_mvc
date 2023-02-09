@@ -32,7 +32,7 @@ public class BookShelfController {
 
     @GetMapping("/shelf")
     public String books(Model model) {
-        logger.info("got book shelf");
+        logger.info(this.toString());
         model.addAttribute("book", new Book());
         model.addAttribute("bookIdToRemove", new BookIdToRemove());
         model.addAttribute("bookList", bookService.getAllBooks());

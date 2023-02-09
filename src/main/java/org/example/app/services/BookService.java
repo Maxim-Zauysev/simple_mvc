@@ -30,8 +30,8 @@ public class BookService {
         return bookRepo.removeItemById(bookIdToRemove);
     }
 
-    public void removeBoolByRegex(String regex){
-         bookRepo.removeItemByRegex(regex);
+    public boolean removeBoolByRegex(String bookRegexToRemove){
+        return bookRepo.removeItemByRegex(bookRegexToRemove);
     }
     private void initIdProvider() {
         logger.info("provider INIT");

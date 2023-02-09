@@ -33,10 +33,11 @@ public class WebAppInitializer implements WebApplicationInitializer {
         webContext.register(WebContextConfig.class);
 
         DispatcherServlet dispatcherServlet = new DispatcherServlet(webContext);
-        ServletRegistration.Dynamic dispatcher = servletContext.addServlet("dispatcher", dispatcherServlet);
+
+        ServletRegistration.Dynamic dispatcher = servletContext.addServlet("dispatcher",dispatcherServlet);
         dispatcher.setLoadOnStartup(1);
         dispatcher.addMapping("/");
-        logger.info("dispatc");
+        logger.info("dispatcher ready");
 
         ServletRegistration.Dynamic servlet = servletContext.addServlet("h2-console",new WebServlet());
         servlet.setLoadOnStartup(2);

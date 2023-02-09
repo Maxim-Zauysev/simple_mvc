@@ -42,14 +42,18 @@
         <table>
             <tr id="book_param">
                 <td>
-                    <input type="text" placeholder="author" th:field="*{author}">
+                    <input type="text" placeholder="author" name="author" th:field="*{author}">
+                    <p th:if="${#fields.hasErrors('author')}" >field must be filled</p>
+
                 </td>
                 <td>
-                    <input type="text" placeholder="book_title" th:field="*{title}" >
+                    <input type="text" placeholder="book_title" name="title" th:field="*{title}" >
+                    <p th:if="${#fields.hasErrors('title')}" >field must be filled</p>
+
                 </td>
                 <td>
-                    <input type="text" placeholder="size (pages)" th:field="*{size}" >
-                    <p th:if="${#fields.hasErrors()}" >field value must be digit and less than 4 signs</p>
+                    <input type="text" placeholder="size (pages)" name="size" th:field="*{size}" >
+                    <p th:if="${#fields.hasErrors('size')}" >field value must be digit and less than 4 signs</p>
                 </td>
                 <td>
                     <button type="submit" class="btn btn-success" >save</button>
@@ -114,18 +118,18 @@
     </table>
 
 </div>
-<script>
-    author = document.querySelector('#book_param');
-    btn = document.querySelector('.btn');
-    btn.setAttribute('disabled',true);
-    author.oninput = function(){
-        if(author.valueOf().length < 1 ){
-            btn.setAttribute('disabled',true);
-            }
-        else{
-            btn.removeAttribute('disabled');
-            }
-    }
-</script>
+<!--<script>-->
+<!--    author = document.querySelector('#book_param');-->
+<!--    btn = document.querySelector('.btn');-->
+<!--    btn.setAttribute('disabled',true);-->
+<!--    author.oninput = function(){-->
+<!--        if(author.valueOf().length < 1 ){-->
+<!--            btn.setAttribute('disabled',true);-->
+<!--            }-->
+<!--        else{-->
+<!--            btn.removeAttribute('disabled');-->
+<!--            }-->
+<!--    }-->
+<!--</script>-->
 </body>
 </html>
