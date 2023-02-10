@@ -1,9 +1,9 @@
 package org.example.app.exeptions;
 
-public class BookShelfLoginExeption extends Exception {
+public class BookShelfLoginException extends Exception {
     private final String message;
 
-    public BookShelfLoginExeption(String message) {
+    public BookShelfLoginException(String message) {
         this.message = message;
     }
 

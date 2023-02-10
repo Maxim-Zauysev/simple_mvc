@@ -10,30 +10,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9348ef95-cd90-43bd-ae8a-beab04ebb839" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/app/exeptions/FIleToUploadException.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/WebAppInitializer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/WebAppInitializer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/app/services/BookRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/app/services/BookRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/app/services/BookService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/app/services/BookService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/app/services/ProjectRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/app/services/ProjectRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/web/config/WebContextConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/web/config/WebContextConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/app/exeptions/BookShelfLoginExeption.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/app/exeptions/BookShelfLoginException.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/web/controllers/BookShelfController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/web/controllers/BookShelfController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/web/dto/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/web/dto/Book.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/book_shelf.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/book_shelf.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/example/WebAppInitializer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/WebAppInitializer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/example/app/services/BookRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/app/services/BookRepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/example/app/services/BookService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/app/services/BookService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/example/app/services/ProjectRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/app/services/ProjectRepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/example/web/controllers/BookShelfController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/web/controllers/BookShelfController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/example/web/dto/Book.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/web/dto/Book.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/spring_skillbox_test_1.war" beforeDir="false" afterPath="$PROJECT_DIR$/target/spring_skillbox_test_1.war" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/spring_skillbox_test_1/WEB-INF/classes/org/example/WebAppInitializer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/spring_skillbox_test_1/WEB-INF/classes/org/example/WebAppInitializer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/spring_skillbox_test_1/WEB-INF/classes/org/example/app/services/BookRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/spring_skillbox_test_1/WEB-INF/classes/org/example/app/services/BookRepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/spring_skillbox_test_1/WEB-INF/classes/org/example/app/services/BookService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/spring_skillbox_test_1/WEB-INF/classes/org/example/app/services/BookService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/spring_skillbox_test_1/WEB-INF/classes/org/example/app/services/ProjectRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/spring_skillbox_test_1/WEB-INF/classes/org/example/app/services/ProjectRepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/spring_skillbox_test_1/WEB-INF/classes/org/example/web/controllers/BookShelfController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/spring_skillbox_test_1/WEB-INF/classes/org/example/web/controllers/BookShelfController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/spring_skillbox_test_1/WEB-INF/classes/org/example/web/dto/Book.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/spring_skillbox_test_1/WEB-INF/classes/org/example/web/dto/Book.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/spring_skillbox_test_1/WEB-INF/views/book_shelf.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/spring_skillbox_test_1/WEB-INF/views/book_shelf.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/web/controllers/LoginController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/web/controllers/LoginController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/errors/404.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/errors/404.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -238,6 +220,8 @@
       <workItem from="1675618679401" duration="134000" />
       <workItem from="1675619373367" duration="5107000" />
       <workItem from="1675884280414" duration="1147000" />
+      <workItem from="1675956611570" duration="1000" />
+      <workItem from="1676006468481" duration="1731000" />
     </task>
     <servers />
   </component>
