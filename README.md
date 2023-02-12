@@ -1,1 +1,1 @@
-# simple_mvc
+This is a simple simulation of a bookshelf.
