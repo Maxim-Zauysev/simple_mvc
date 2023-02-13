@@ -90,11 +90,12 @@
             </tr>
         </table>
     </form>
-    <form method="post" th:action="@{/books/removeByRegex}">
+    <form method="post" th:action="@{/books/removeByRegex}" th:object="${bookRegexToRemove}">
         <table>
             <tr>
                 <td>
-                    <input type="text" placeholder="regex" th:name="queryRegex">
+                    <input type="text" placeholder="regex" th:field="*{queryRegex}">
+                    <p th:if="${#fields.hasErrors('queryRegex')}">Regex blank or not valid</p>
                 </td>
                 <td>
                     <input type="submit" value="remove by regex">
