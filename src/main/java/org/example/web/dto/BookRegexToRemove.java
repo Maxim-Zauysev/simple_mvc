@@ -4,7 +4,7 @@ import javax.validation.constraints.NotBlank;
 import javax.validation.constraints.Pattern;
 
 public class BookRegexToRemove {
-    
+
     @Pattern(regexp = "(author|title|size)\\s+(.+)*(\\s+)*")
     private String queryRegex;
 
